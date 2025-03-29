@@ -1,6 +1,6 @@
 module github.com/Kawilki-M/receipt-processor
 
-go 1.24.1
+go 1.20
 
 require (
 	github.com/go-chi/chi v1.5.5
