@@ -28,7 +28,12 @@ go run cmd/api/main.go
 ```
 
 ## Configuration
-The server runs on **localhost:8000**
+By default, the server runs on **localhost:8000**. If you need to change the port, you can do so by setting the `PORT` environment variable before running the server:
+
+```sh
+export PORT=8080  # Change 8000 to 8080 or another port
+go run cmd/api/main.go
+```
 
 ## API Documentation
 For detailed API specifications, refer to api.yaml.
