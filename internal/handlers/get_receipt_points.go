@@ -39,7 +39,6 @@ func GetReceiptPoints(w http.ResponseWriter, r *http.Request) {
 	// Respond to request
 	var response = api.GetReceiptPointsResponse{
 		Points: (*receiptDetails).Points,
-		Code:   http.StatusOK,
 	}
 
 	w.Header().Set("Content-Type", "application/json")

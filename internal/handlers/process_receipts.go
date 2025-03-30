@@ -58,8 +58,7 @@ func ProcessReceipts(w http.ResponseWriter, r *http.Request) {
 
 	// Respond to request
 	var response = api.ProcessReceiptsResponse{
-		Id:   receiptId,
-		Code: http.StatusOK,
+		Id: receiptId,
 	}
 
 	w.Header().Set("Content-Type", "application/json")

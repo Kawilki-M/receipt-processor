@@ -30,7 +30,7 @@ func main() {
 		port = "8000"
 	}
 
-	fmt.Printf("\nServer running on localhost:%s", port)
+	fmt.Printf("\nServer running on localhost:%s\n", port)
 
 	err := http.ListenAndServe("localhost:"+port, r)
 	if err != nil {

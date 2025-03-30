@@ -10,8 +10,7 @@ type ProcessReceiptsParams struct {
 }
 
 type ProcessReceiptsResponse struct {
-	Code int    `json:"code"`
-	Id   string `json:"id"`
+	Id string `json:"id"`
 }
 
 type GetReceiptPointsParams struct {
@@ -19,7 +18,6 @@ type GetReceiptPointsParams struct {
 }
 
 type GetReceiptPointsResponse struct {
-	Code   int   `json:"code"`
 	Points int64 `json:"points"`
 }
 
